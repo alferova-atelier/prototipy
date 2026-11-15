@@ -1,6 +1,6 @@
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const money=n=>n.toLocaleString('ru-RU');
-const priceLabel=p=>Number.isFinite(p.price)?`${money(p.price)} ₽ <span>/ ${p.unit}</span>`:'<span class="on-request">Цена по запросу</span>';
+const priceLabel=p=>Number.isFinite(p.price)?`${p.priceFrom?"от ":""}${money(p.price)} ₽ <span>/ ${p.unit}</span>`:'<span class="on-request">Цена по запросу</span>';
 const sourceNote=p=>Number.isFinite(p.price)?`Цена на сайте салона на ${p.checked}. Единицу расчёта и итоговую стоимость подтвердит менеджер. Наличие уточняется.`:`Источник — публикация ВК от ${p.source_date}; проверена ${p.checked}. Цена в публикации не указана. Актуальность ассортимента и наличие уточняются.`;
 let saved=[];try{saved=JSON.parse(localStorage.getItem('martdecor-shortlist-v1')||'[]').filter(id=>PRODUCTS.some(p=>p.id===id))}catch{}
 // Local HTML files may have separate storage origins; carry only product IDs between pages.

@@ -23,7 +23,7 @@ window.PRODUCTS = [
     ],
     "style": "paint",
     "source": "https://martdecor.ru/",
-    "checked": "11.11.2026",
+    "checked": "15.11.2026",
     "availability": "Уточняется у салона"
   },
   {
@@ -50,7 +50,7 @@ window.PRODUCTS = [
     ],
     "style": "relief",
     "source": "https://martdecor.ru/",
-    "checked": "11.11.2026",
+    "checked": "15.11.2026",
     "availability": "Уточняется у салона"
   },
   {
@@ -77,7 +77,7 @@ window.PRODUCTS = [
     ],
     "style": "stone",
     "source": "https://martdecor.ru/",
-    "checked": "11.11.2026",
+    "checked": "15.11.2026",
     "availability": "Уточняется у салона"
   },
   {
@@ -104,7 +104,7 @@ window.PRODUCTS = [
     ],
     "style": "wood",
     "source": "https://martdecor.ru/",
-    "checked": "11.11.2026",
+    "checked": "15.11.2026",
     "availability": "Уточняется у салона"
   },
   {
@@ -132,7 +132,7 @@ window.PRODUCTS = [
     "unit": "",
     "source": "https://vk.ru/wall-53471837_7481",
     "source_date": "20.04.2024",
-    "checked": "12.11.2026",
+    "checked": "15.11.2026",
     "availability": "Уточняется у салона"
   },
   {
@@ -160,7 +160,7 @@ window.PRODUCTS = [
     "unit": "",
     "source": "https://vk.ru/wall-53471837_7481",
     "source_date": "20.04.2024",
-    "checked": "12.11.2026",
+    "checked": "15.11.2026",
     "availability": "Уточняется у салона"
   },
   {
@@ -188,7 +188,7 @@ window.PRODUCTS = [
     "unit": "",
     "source": "https://vk.ru/wall-53471837_7532",
     "source_date": "22.07.2024",
-    "checked": "12.11.2026",
+    "checked": "15.11.2026",
     "availability": "Уточняется у салона"
   },
   {
@@ -216,7 +216,7 @@ window.PRODUCTS = [
     "unit": "",
     "source": "https://vk.ru/wall-53471837_7477",
     "source_date": "15.04.2024",
-    "checked": "12.11.2026",
+    "checked": "15.11.2026",
     "availability": "Уточняется у салона"
   },
   {
@@ -244,7 +244,7 @@ window.PRODUCTS = [
     "unit": "",
     "source": "https://vk.ru/wall-53471837_7658",
     "source_date": "06.04.2026",
-    "checked": "12.11.2026",
+    "checked": "15.11.2026",
     "availability": "Уточняется у салона"
   },
   {
@@ -272,7 +272,61 @@ window.PRODUCTS = [
     "unit": "",
     "source": "https://vk.ru/wall-53471837_7474",
     "source_date": "11.04.2024",
-    "checked": "12.11.2026",
+    "checked": "15.11.2026",
     "availability": "Уточняется у салона"
+  },
+  {
+    "id": "sirpi-20065",
+    "name": "Missoni Home 6 · 20065",
+    "brand": "Sirpi",
+    "category": "Обои",
+    "price": 19500,
+    "priceFrom": true,
+    "unit": "рулон",
+    "detail": "Обои итальянского бренда Sirpi. Размер рулона 10,05 × 1 м, раппорт 64 см.",
+    "spec": [
+      [
+        "Артикул",
+        "20065"
+      ],
+      [
+        "Размер рулона",
+        "10,05 × 1 м"
+      ],
+      [
+        "Раппорт",
+        "64 см"
+      ]
+    ],
+    "style": "wallpaper",
+    "source": "https://martdecor.online/product/oboi-sirpi-missoni-home-6-20065/",
+    "checked": "15.11.2026"
+  },
+  {
+    "id": "verde",
+    "name": "Каменный шпон Verde Guatemala",
+    "brand": "Бренд уточняется",
+    "category": "Каменный шпон",
+    "price": 26630,
+    "priceFrom": true,
+    "unit": "единицу уточнить",
+    "detail": "Мраморный каменный шпон. В выбранной карточке указан размер 1220 × 2700 мм.",
+    "spec": [
+      [
+        "Материал",
+        "Мрамор"
+      ],
+      [
+        "Размер",
+        "1220 × 2700 мм"
+      ],
+      [
+        "Единица цены",
+        "Подтвердит менеджер"
+      ]
+    ],
+    "style": "stone",
+    "source": "https://martdecor.online/product/kamennyy-shpon-verde-gvatemala-verde-guatemala-1220h2700mm-mramor/",
+    "checked": "15.11.2026"
   }
 ];

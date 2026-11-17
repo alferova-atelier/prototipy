@@ -330,3 +330,7 @@ window.PRODUCTS = [
     "checked": "15.11.2026"
   }
 ];
+const PRODUCT_PHOTOS={"orac-w111": {"image": "images/panels.webp", "alt": "Интерьер с панелями Orac из публикации коллекции"}, "orac-w119": {"image": "images/panels-detail.webp", "alt": "Интерьер с панелями Orac из публикации коллекции"}, "hikari": {"image": "images/wallpaper.webp", "alt": "Интерьер Casamance из публикации о коллекции Hikari"}, "mons": {"image": "images/mons.webp", "alt": "Краски MONS из публикации салона"}, "swiss-lake": {"image": "images/swiss-lake.webp", "alt": "Веер оттенков Swiss Lake из публикации салона"}, "shangrila": {"image": "images/shangrila.webp", "alt": "Панно SHANGRILA с сайта салона"}, "bamstek": {"image": "images/bamstek.webp", "alt": "Бамбуковая панель WPC с сайта салона"}};
+PRODUCTS.forEach(p=>Object.assign(p,PRODUCT_PHOTOS[p.id]||{}));
+
+PRODUCTS.forEach(p=>Object.assign(p,({"charmant": {"image": "images/charmant.webp", "alt": "Краска Charmant Ultra, фотография с сайта салона", "photoLabel": "Фото товара с сайта салона"}, "shangrila": {"image": "images/shangrila.webp", "alt": "Гипсовое панно SHANGRILA, фотография с сайта салона", "photoLabel": "Фото товара с сайта салона"}, "dblack": {"image": "images/dblack.webp", "alt": "Каменный шпон D-Black, фотография с сайта салона", "photoLabel": "Фото товара с сайта салона"}, "bamstek": {"image": "images/bamstek.webp", "alt": "Бамбуковая панель WPC, фотография с сайта салона", "photoLabel": "Фото товара с сайта салона"}})[p.id]||{}));

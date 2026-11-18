@@ -1,0 +1,336 @@
+window.PRODUCTS = [
+  {
+    "id": "charmant",
+    "name": "Charmant Ultra",
+    "brand": "Loymina",
+    "category": "Краски",
+    "price": 4900,
+    "unit": "шт.",
+    "detail": "Глубокоматовая краска для внутренней отделки. Объём — 1 л.",
+    "spec": [
+      [
+        "Объём",
+        "1 л"
+      ],
+      [
+        "Тип",
+        "Акрил-уретановая"
+      ],
+      [
+        "Финиш",
+        "Глубокоматовый"
+      ]
+    ],
+    "style": "paint",
+    "source": "https://martdecor.ru/",
+    "checked": "15.11.2026",
+    "availability": "Уточняется у салона"
+  },
+  {
+    "id": "shangrila",
+    "name": "SHANGRILA",
+    "brand": "Artpole",
+    "category": "Панели",
+    "price": 120960,
+    "unit": "м²",
+    "detail": "Гипсовое панно из 16 элементов. Размер собранного полотна — 2400 × 2400 мм.",
+    "spec": [
+      [
+        "Материал",
+        "Гипс"
+      ],
+      [
+        "Размер элемента",
+        "600 × 600 мм"
+      ],
+      [
+        "Панно",
+        "2400 × 2400 мм"
+      ]
+    ],
+    "style": "relief",
+    "source": "https://martdecor.ru/",
+    "checked": "15.11.2026",
+    "availability": "Уточняется у салона"
+  },
+  {
+    "id": "dblack",
+    "name": "Каменный шпон D-Black",
+    "brand": "Slate Lite / Flat Stone",
+    "category": "Каменный шпон",
+    "price": 23950,
+    "unit": "шт.",
+    "detail": "Тонкий срез натурального камня. Лист 1220 × 2700 мм.",
+    "spec": [
+      [
+        "Материал",
+        "Слюда"
+      ],
+      [
+        "Размер",
+        "1220 × 2700 мм"
+      ],
+      [
+        "Название",
+        "Ди-Блэк / D-Black направление"
+      ]
+    ],
+    "style": "stone",
+    "source": "https://martdecor.ru/",
+    "checked": "15.11.2026",
+    "availability": "Уточняется у салона"
+  },
+  {
+    "id": "bamstek",
+    "name": "Бамбуковая панель WPC",
+    "brand": "BAMSTEK",
+    "category": "Панели",
+    "price": 15400,
+    "unit": "шт.",
+    "detail": "Стеновая панель из бамбукового волокна и полимерных связующих.",
+    "spec": [
+      [
+        "Размер",
+        "3000 × 1100 × 5 мм"
+      ],
+      [
+        "Основа",
+        "Бамбуковое волокно + полимер"
+      ],
+      [
+        "Назначение",
+        "Стеновая панель"
+      ]
+    ],
+    "style": "wood",
+    "source": "https://martdecor.ru/",
+    "checked": "15.11.2026",
+    "availability": "Уточняется у салона"
+  },
+  {
+    "id": "orac-w111",
+    "name": "W111 BAR",
+    "brand": "Orac Decor",
+    "category": "Панели",
+    "detail": "Стеновая панель W111 BAR. В публикации салона показана вместе с W119 BAR MIX.",
+    "spec": [
+      [
+        "Модель",
+        "W111 BAR"
+      ],
+      [
+        "Бренд",
+        "Orac Decor"
+      ],
+      [
+        "Размеры и материал",
+        "Уточнить по артикулу"
+      ]
+    ],
+    "style": "relief",
+    "price": null,
+    "unit": "",
+    "source": "https://vk.ru/wall-53471837_7481",
+    "source_date": "20.04.2024",
+    "checked": "15.11.2026",
+    "availability": "Уточняется у салона"
+  },
+  {
+    "id": "orac-w119",
+    "name": "W119 BAR MIX",
+    "brand": "Orac Decor",
+    "category": "Панели",
+    "detail": "Стеновая панель W119 BAR MIX из публикации салона о современном интерьере.",
+    "spec": [
+      [
+        "Модель",
+        "W119 BAR MIX"
+      ],
+      [
+        "Бренд",
+        "Orac Decor"
+      ],
+      [
+        "Размеры и материал",
+        "Уточнить по артикулу"
+      ]
+    ],
+    "style": "relief",
+    "price": null,
+    "unit": "",
+    "source": "https://vk.ru/wall-53471837_7481",
+    "source_date": "20.04.2024",
+    "checked": "15.11.2026",
+    "availability": "Уточняется у салона"
+  },
+  {
+    "id": "mons",
+    "name": "Краски MONS",
+    "brand": "MONS",
+    "category": "Краски",
+    "detail": "Линейка красок, представленная в салоне. Конкретный продукт, оттенок и фасовку подбирает менеджер.",
+    "spec": [
+      [
+        "Тип карточки",
+        "Линейка, не отдельный артикул"
+      ],
+      [
+        "Выбор цвета",
+        "По образцам"
+      ],
+      [
+        "Фасовка и расход",
+        "Уточнить по продукту"
+      ]
+    ],
+    "style": "paint",
+    "price": null,
+    "unit": "",
+    "source": "https://vk.ru/wall-53471837_7532",
+    "source_date": "22.07.2024",
+    "checked": "15.11.2026",
+    "availability": "Уточняется у салона"
+  },
+  {
+    "id": "swiss-lake",
+    "name": "Краски Swiss Lake",
+    "brand": "Swiss Lake",
+    "category": "Краски",
+    "detail": "Линия красок из публикации МАРТдекор. Тип покрытия, оттенок и объём нужно согласовать под задачу.",
+    "spec": [
+      [
+        "Тип карточки",
+        "Линейка, не отдельный артикул"
+      ],
+      [
+        "Название",
+        "Swiss Lake"
+      ],
+      [
+        "Фасовка и расход",
+        "Уточнить по продукту"
+      ]
+    ],
+    "style": "paint",
+    "price": null,
+    "unit": "",
+    "source": "https://vk.ru/wall-53471837_7477",
+    "source_date": "15.04.2024",
+    "checked": "15.11.2026",
+    "availability": "Уточняется у салона"
+  },
+  {
+    "id": "hikari",
+    "name": "Коллекция Hikari",
+    "brand": "Casamance",
+    "category": "Обои",
+    "detail": "Коллекция настенных покрытий, представленная в публикации салона. Состав и способ ухода зависят от выбранного артикула.",
+    "spec": [
+      [
+        "Тип карточки",
+        "Коллекция"
+      ],
+      [
+        "Название",
+        "Hikari"
+      ],
+      [
+        "Бренд",
+        "Casamance"
+      ]
+    ],
+    "style": "wallpaper",
+    "price": null,
+    "unit": "",
+    "source": "https://vk.ru/wall-53471837_7658",
+    "source_date": "06.04.2026",
+    "checked": "15.11.2026",
+    "availability": "Уточняется у салона"
+  },
+  {
+    "id": "colors",
+    "name": "Обои COLORS",
+    "brand": "COLORS",
+    "category": "Обои",
+    "detail": "Однотонные обои из обзора каталога МАРТдекор. Производителя, артикул, размер рулона и актуальную палитру уточнит салон.",
+    "spec": [
+      [
+        "Тип карточки",
+        "Коллекция"
+      ],
+      [
+        "Название в публикации",
+        "COLORS"
+      ],
+      [
+        "Дизайн",
+        "Однотонные"
+      ]
+    ],
+    "style": "wallpaper",
+    "price": null,
+    "unit": "",
+    "source": "https://vk.ru/wall-53471837_7474",
+    "source_date": "11.04.2024",
+    "checked": "15.11.2026",
+    "availability": "Уточняется у салона"
+  },
+  {
+    "id": "sirpi-20065",
+    "name": "Missoni Home 6 · 20065",
+    "brand": "Sirpi",
+    "category": "Обои",
+    "price": 19500,
+    "priceFrom": true,
+    "unit": "рулон",
+    "detail": "Обои итальянского бренда Sirpi. Размер рулона 10,05 × 1 м, раппорт 64 см.",
+    "spec": [
+      [
+        "Артикул",
+        "20065"
+      ],
+      [
+        "Размер рулона",
+        "10,05 × 1 м"
+      ],
+      [
+        "Раппорт",
+        "64 см"
+      ]
+    ],
+    "style": "wallpaper",
+    "source": "https://martdecor.online/product/oboi-sirpi-missoni-home-6-20065/",
+    "checked": "15.11.2026"
+  },
+  {
+    "id": "verde",
+    "name": "Каменный шпон Verde Guatemala",
+    "brand": "Бренд уточняется",
+    "category": "Каменный шпон",
+    "price": 26630,
+    "priceFrom": true,
+    "unit": "единицу уточнить",
+    "detail": "Мраморный каменный шпон. В выбранной карточке указан размер 1220 × 2700 мм.",
+    "spec": [
+      [
+        "Материал",
+        "Мрамор"
+      ],
+      [
+        "Размер",
+        "1220 × 2700 мм"
+      ],
+      [
+        "Единица цены",
+        "Подтвердит менеджер"
+      ]
+    ],
+    "style": "stone",
+    "source": "https://martdecor.online/product/kamennyy-shpon-verde-gvatemala-verde-guatemala-1220h2700mm-mramor/",
+    "checked": "15.11.2026"
+  }
+];
+const PRODUCT_PHOTOS={"orac-w111": {"image": "images/panels.webp", "alt": "Интерьер с панелями Orac из публикации коллекции"}, "orac-w119": {"image": "images/panels-detail.webp", "alt": "Интерьер с панелями Orac из публикации коллекции"}, "hikari": {"image": "images/wallpaper.webp", "alt": "Интерьер Casamance из публикации о коллекции Hikari"}, "mons": {"image": "images/mons.webp", "alt": "Краски MONS из публикации салона"}, "swiss-lake": {"image": "images/swiss-lake.webp", "alt": "Веер оттенков Swiss Lake из публикации салона"}, "shangrila": {"image": "images/shangrila.webp", "alt": "Панно SHANGRILA с сайта салона"}, "bamstek": {"image": "images/bamstek.webp", "alt": "Бамбуковая панель WPC с сайта салона"}};
+PRODUCTS.forEach(p=>Object.assign(p,PRODUCT_PHOTOS[p.id]||{}));
+
+PRODUCTS.forEach(p=>Object.assign(p,({"charmant": {"image": "images/charmant.webp", "alt": "Краска Charmant Ultra, фотография с сайта салона", "photoLabel": "Фото товара с сайта салона"}, "shangrila": {"image": "images/shangrila.webp", "alt": "Гипсовое панно SHANGRILA, фотография с сайта салона", "photoLabel": "Фото товара с сайта салона"}, "dblack": {"image": "images/dblack.webp", "alt": "Каменный шпон D-Black, фотография с сайта салона", "photoLabel": "Фото товара с сайта салона"}, "bamstek": {"image": "images/bamstek.webp", "alt": "Бамбуковая панель WPC, фотография с сайта салона", "photoLabel": "Фото товара с сайта салона"}})[p.id]||{}));
